@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "@fe/server",
+  "main": "./src/bin/www.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cheng-yee",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.16.0",
+    "uuid": "^3.3.2",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.5",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-compress": "^2.0.8",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa-router": "^7.0.32",
+    "@types/koa-static": "^4.0.0",
+    "@types/uuid": "^3.4.4"
+  }
+}

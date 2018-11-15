@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "ext": "ts js",
+  "watch": ["server/src"],
+  "ignore": ["node_modules", "dist"],
+  "exec": "node -r ts-node/register --inspect=9005 server/src/bin/www.ts",
+  "env": {
+    "PORT": 9000,
+    "NODE_ENV": "development",
+    "RUNTIME_ENV": "dev",
+    "TS_NODE_CACHE": false,
+    "TS_NODE_TYPE_CHECK": true,
+    "TS_NODE_PROJECT": "server/tsconfig.json"
+  }
+}

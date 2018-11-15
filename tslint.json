@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "tslint-config-lei",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "no-console": false,
+    "no-trailing-whitespace": true,
+    "space-before-function-paren": false,
+    "max-classes-per-file": false,
+    "no-unused-expression": false,
+    "no-namespace": [true, "allow-declarations"],
+    "no-empty": [true, "allow-empty-catch"],
+    "no-shadowed-variable": false,
+    "jsx-no-lambda": false,
+    "no-empty-interface": false,
+    "no-reference": false
+  },
+  "jsRules": {
+    "prettier": true,
+    "no-console": false,
+    "no-unused-expression": false,
+    "no-empty": false,
+    "no-shadowed-variable": false,
+    "object-literal-sort-keys": false,
+    "forin": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "@fe/architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-static": "cross-env NODE_ENV=development webpack-dev-server --progress --config ./webpack.config.js --mode development"
+  },
+  "keywords": [
+    "fe"
+  ],
+  "author": "cheng-yee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "@types/react-redux": "^6.0.9",
+    "@types/react-router": "^4.0.31",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux": "^3.6.0",
+    "@types/styled-components": "^3.0.1",
+    "owl-webpack-base": "^1.0.4"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.4.9"
+  }
+}
